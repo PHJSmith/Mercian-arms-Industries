@@ -1,0 +1,32 @@
+.navigationtop {
+  overflow: hidden;
+  background: $mercianBlue;
+}
+.navigation2top {
+  overflow: hidden;
+  background: $mercianBlue;
+  text-align: center;
+}
+
+.navigation2top a {
+font-family: $commonFont;
+  float: none;
+  display: inline-block;
+  color: $lightGrey1;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navigation2top a:hover {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+     transition:.7s;
+     color: $white;
+}
+
+.navigation2top a.active {
+    color: $white;
+}

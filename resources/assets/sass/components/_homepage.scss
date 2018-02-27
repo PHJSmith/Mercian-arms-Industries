@@ -1,0 +1,53 @@
+.homepage {
+    color: $white;
+    font-size: 1.875em;
+    padding: 15px 12px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $commonFont;
+}
+.homepagemaindivider {
+    padding: 0.5rem;
+    background-color: $white;
+    border-radius: 4px;
+    border: 1px solid $lightGrey2;
+}
+.button {
+    font-family: $commonFont;
+    text-decoration: none;
+    background-color: $mercianLightBlue;
+    color: $black;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.buttonleft {
+
+    float: left;
+    font-family: $commonFont;
+    text-decoration: none;
+    background-color: $mercianLightBlue;
+    color: $black;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 590px;
+    margin: 5px;
+}
+.buttonright {
+
+    float: right;
+    font-family: $commonFont;
+    text-decoration: none;
+    background-color: $mercianLightBlue;
+    color: $black;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 590px;
+    margin: 5px;
+    
+}
